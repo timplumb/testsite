@@ -1,0 +1,42 @@
+body { margin:0px; background-color:#fff; height:100% }
+html { height:100% }
+#button a:link { color:#6c6c6c; text-decoration:none }
+#button a:visited { color:#6c6c6c; text-decoration:none }
+#button a:hover { color:#8c8c8c; text-decoration:none }
+#button a:active { color:#333; text-decoration:none }
+#PageDiv { position:relative; min-height:100% }
+#header { width:76.67%; max-width:960px; z-index:0; padding:20px; margin-left:auto; margin-right:auto; overflow:visible }
+#menu { width:65%; height:auto; z-index:0; float:right; clear:right; overflow:visible; position:relative }
+#logo-wrapper { width:34.94%; height:45px; min-width:209px; max-width:315px; z-index:0; overflow:visible }
+#PlumbDesignlogo { left:0px; top:0px; width:315px; height:auto !important; vertical-align:top; overflow:hidden; max-width:100% !important }
+#hero { position:relative; width:100%; min-height:500px; z-index:0; overflow:visible }
+#m1 { position:absolute; left:0px; top:0px; width:100%; min-height:500px; z-index:1; background-image:url(../Resources/deathtostock_crea.jpg); background-position:center top; background-repeat:no-repeat; overflow:visible; font-size:1px }
+#m2 { position:absolute; left:0px; top:0px; width:100%; min-height:500px; z-index:2; background-image:url(../Resources/deathtostock_crea1.jpg); background-position:center bottom; background-repeat:no-repeat; overflow:visible; font-size:1px }
+#m3 { position:absolute; left:0px; top:0px; width:100%; min-height:500px; z-index:3; background-image:url(../Resources/deathtostock_crea2.jpg); background-position:center; background-repeat:no-repeat; overflow:visible; font-size:1px }
+#belly-band-outer { width:98%; z-index:0; padding:5% 1%; background-color:#eee; overflow:visible }
+#belly-band { width:76.67%; max-width:960px; z-index:0; padding:20px; margin-left:auto; margin-right:auto; overflow:visible }
+#button { width:30%; min-width:200px; z-index:0; margin-left:auto; margin-right:auto; overflow:visible }
+#fwNav1 { float:right; padding:0; margin:0; list-style:none }
+#fwNav1 .fwNavItem { width:auto; position:relative; float:left; margin:0; padding:0; border-top:0; border-bottom:0 }
+#fwNav1 .fwNavItem a { display:block; color:#8C8C8C; text-decoration:none; padding:10px 20px 10px 20px }
+#fwNav1 .fwFirstChild { border-left:0 }
+#fwNav1 .fwLastChild { border-right:0 }
+#fwNav1 .fwNavItem a:hover, #fwNav1 .fwNavItem span a:hover, #fwNav1 .fwNavItem a:focus { color:#FFFFFF; text-decoration:none; background:#DCDCDC }
+#fwNav1 .fwNavItem a:active { color:#000000; text-decoration:none; background:#FFFFFF }
+#fwNav1-toggle, .fwNav1-toggle-label { display:none }
+.fwNav1-toggle-label { width:30px; height:30px; overflow:hidden; background-image:url('../Resources/hamburger-black.png'); background-repeat:no-repeat; background-size:100%; float:right }
+* html #fwNav1 { float:right }
+* html #fwNav1 .fwNavItem a { float:left; height:1% }
+@media screen and (max-width:1100px)
+{
+	#menu { width:auto }
+	#fwNav1 { width:100%; right:0; left:0; margin-top:0px }
+	#fwNav1 .fwNavItem { box-sizing:border-box; float:none; overflow:hidden; width:100%; border-right:0; border-left:0 }
+	#fwNav1 .fwNavItem a { padding-top:20px; padding-bottom:20px; padding-left:20px; padding-right:20px }
+	#fwNav1 .fwFirstChild { border-top:0 }
+	#fwNav1 .fwLastChild { border-bottom:0 }
+	.fwNav1-toggle-label { display:block; position:relative; cursor:pointer; -webkit-touch-callout:none; -webkit-user-select:none; user-select:none }
+	.fwNavContainer1 { display:none; position:fixed; width:100%; left:0; right:0; top:0; bottom:0; background-color:#FFFFFF; -webkit-overflow-scrolling:touch; overflow:auto; float:none; -webkit-transition:.2s ease-out -webkit-transform; -moz-transition:.2s ease-out -moz-transform; -ms-transition:.2s ease-out -ms-transform; -o-transition:.2s ease-out -o-transform; transition:.2s ease-out transform; -webkit-transform:translate3d(0,-100%,0); -moz-transform:translate3d(0,-100%,0); -ms-transform:translate3d(0,-100%,0); -o-transform:translate3d(0,-100%,0); transform:translate3d(0,-100%,0) }
+	.fwNav1-toggle-close { margin:20px 20px 20px 20px }
+	#fwNav1-toggle:checked ~ .fwNavContainer1 { font-size:1em; -webkit-transform:translate3d(0,0,0); -moz-transform:translate3d(0,0,0); -ms-transform:translate3d(0,0,0); -o-transform:translate3d(0,0,0); transform:translate3d(0,0,0) }
+}
